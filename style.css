@@ -1,0 +1,8 @@
+/* navbar */
+.navbar-brand, .nav-item {
+    font-size: 20px;
+}
+
+.nav-item {
+    padding: 10px 20px;
+}
