@@ -1,5 +1,10 @@
 a, a:hover {
     color: blueviolet;
+    font-weight: 700;
+}
+
+p {
+    color: rgb(48, 13, 79);
 }
 
 .btn-purple {
@@ -44,6 +49,19 @@ a, a:hover {
 }
 
 /* portfolio */
+#portfolio {
+    background-color: #f8f6ff;
+}
+
+.project {
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 30px;
+}
+
+.project-details {
+    padding: 5px 30px 20px 30px;
+}
+
 @media all and (max-width: 992px) {
     .project {
         padding-bottom: 20px;
@@ -68,3 +86,5 @@ a, a:hover {
     padding: 10px 10px;
     margin-right: 20px;
 }
+
+
