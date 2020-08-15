@@ -50,3 +50,21 @@ a, a:hover {
         border-bottom: 1px solid #ebebeb;
     }
 }
+
+/* contact me */
+#contact-me-content {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#contact-me-imgs {
+    margin: 0 auto;
+}
+
+#contact-me-imgs li {
+    list-style: none;
+    width: 70px;
+    float: left;
+    padding: 10px 10px;
+    margin-right: 20px;
+}
