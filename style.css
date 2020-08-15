@@ -1,3 +1,15 @@
+.btn-purple {
+    color: #fff;
+    background-color: blueviolet;
+}
+
+.btn-purple:hover, .btn-purple:focus, .btn-purple:visited {
+    color: #fff;
+    background-color: blueviolet;
+    opacity: 0.8;
+    box-shadow: none;
+}
+
 /* navbar */
 .navbar-brand, .nav-item {
     font-size: 20px;
@@ -5,4 +17,29 @@
 
 .nav-item {
     padding: 10px 20px;
+}
+
+/* about me */
+#about-me-title {
+    font-size: 3.5em;
+}
+
+#about-me-subtitle {
+    font-size: 1.4em;
+}
+
+#about-me-subtitle a {
+    color: blueviolet;
+}
+
+#about-me-img {
+    max-height: 85vh;
+}
+
+
+@media all and (min-width: 992px) {
+    #about-me-desc {
+        position: relative;
+        top: 100px;
+    }
 }
